@@ -1,9 +1,10 @@
+import PpmChart from './PpmChart';
 import './App.css';
 
 function App() {
   return (
     <div>
-      Hello, world!
+      <PpmChart />
     </div>
   );
 }
