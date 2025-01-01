@@ -9,30 +9,30 @@ const PpmChart = () => {
       {
         label: "問題児",
         data: [
-          { x: 20, y: 80, label: "d" },
+          { x: 20, y: 80, label: "Area A" },
         ],
-        backgroundColor: "rgba(75, 192, 192, 1)",
+        backgroundColor: "rgba(255, 99, 132, 0.6)",
       },
       {
         label: "花形",
         data: [
-          { x: 80, y: 80, label: "a" },
+          { x: 80, y: 80, label: "Area b" },
         ],
-        backgroundColor: "",
+        backgroundColor: "rgba(54, 162, 235, 0.6)",
       },
       {
         label: "負け犬",
         data: [
-          { x: 20, y: 20, label: "b" },
+          { x: 20, y: 20, label: "Area C" },
         ],
-        backgroundColor: "",
+        backgroundColor: "rgba(201, 203, 207, 0.6)",
       },
       {
         label: "金のなる木",
         data: [
-          { x: 80, y: 20, label: "c" },
+          { x: 80, y: 20, label: "Area D" },
         ],
-        backgroundColor: "",
+        backgroundColor: "rgba(255, 206, 86, 0.6)",
       },
     ],
   };
