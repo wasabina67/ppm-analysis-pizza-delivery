@@ -10,11 +10,32 @@ const PpmChart = () => {
         label: "Areas",
         data: [
           { x: 20, y: 80, label: "Area A" },
-          { x: 80, y: 80, label: "Area B" },
-          { x: 20, y: 20, label: "Area C" },
-          { x: 80, y: 20, label: "Area D" },
+          // { x: 80, y: 80, label: "Area B" },
+          // { x: 20, y: 20, label: "Area C" },
+          // { x: 80, y: 20, label: "Area D" },
         ],
         backgroundColor: "rgba(75, 192, 192, 1)",
+      },
+      {
+        label: "a",
+        data: [
+          { x: 80, y: 80, label: "a" },
+        ],
+        backgroundColor: "",
+      },
+      {
+        label: "b",
+        data: [
+          { x: 20, y: 20, label: "b" },
+        ],
+        backgroundColor: "",
+      },
+      {
+        label: "c",
+        data: [
+          { x: 80, y: 20, label: "c" },
+        ],
+        backgroundColor: "",
       },
     ],
   };
