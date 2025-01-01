@@ -49,7 +49,7 @@ const PpmChart = () => {
     plugins: {
       title: {
         display: true,
-        text: "ppm-analysis",
+        text: "ppm-analysis-example",
         font: {
           size: 20,
         },
