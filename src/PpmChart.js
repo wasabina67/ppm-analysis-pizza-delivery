@@ -10,6 +10,8 @@ const PpmChart = () => {
         label: "問題児",
         data: [
           { x: 25, y: 50, label: "Product A" },
+          { x: 30, y: 60, label: "Product E" },
+          { x: 20, y: 55, label: "Product F" },
         ],
         backgroundColor: "rgba(255, 99, 132, 0.6)",
       },
@@ -17,6 +19,8 @@ const PpmChart = () => {
         label: "花形",
         data: [
           { x: 75, y: 50, label: "Product B" },
+          { x: 80, y: 65, label: "Product G" },
+          { x: 70, y: 60, label: "Product H" },
         ],
         backgroundColor: "rgba(54, 162, 235, 0.6)",
       },
@@ -24,6 +28,8 @@ const PpmChart = () => {
         label: "負け犬",
         data: [
           { x: 25, y: -50, label: "Product C" },
+          { x: 20, y: -60, label: "Product I" },
+          { x: 15, y: -55, label: "Product J" },
         ],
         backgroundColor: "rgba(201, 203, 207, 0.6)",
       },
@@ -31,6 +37,8 @@ const PpmChart = () => {
         label: "金のなる木",
         data: [
           { x: 75, y: -50, label: "Product D" },
+          { x: 80, y: -60, label: "Product K" },
+          { x: 70, y: -55, label: "Product L" },
         ],
         backgroundColor: "rgba(255, 206, 86, 0.6)",
       },
