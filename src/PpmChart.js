@@ -31,8 +31,22 @@ const PpmChart = () => {
       },
     },
     scales: {
-      x: {},
-      y: {},
+      x: {
+        beginAtZero: true,
+        max: 100,
+        title: {
+          display: true,
+          text: "",
+        },
+      },
+      y: {
+        beginAtZero: true,
+        max: 100,
+        title: {
+          display: true,
+          text: "",
+        },
+      },
     },
     layout: {
       padding: 20,
