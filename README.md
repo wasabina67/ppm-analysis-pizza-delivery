@@ -1,2 +1,2 @@
 # ppm-analysis
-Product Portfolio Management (PPM) Analysis
+Product Portfolio Management (PPM) Analysis example
