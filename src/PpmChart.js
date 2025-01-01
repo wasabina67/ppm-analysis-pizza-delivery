@@ -19,7 +19,18 @@ const PpmChart = () => {
     ],
   };
 
-  const options = {};
+  const options = {
+    plugins: {
+      tooltip: {
+        callbacks: {
+          label: (context) => {
+            const label = context.raw.label || "";
+            return `${label}: (${context.raw.x}, ${context.raw.y})`;
+          },
+        },
+      },
+    },
+  };
 
   return <Scatter data={data} options={options} />;
 };
