@@ -77,6 +77,12 @@ const PpmChart = () => {
         },
       },
     },
+    elements: {
+      point: {
+        radius: 10,
+        hoverRadius: 15,
+      },
+    },
     layout: {
       padding: 20,
     },
