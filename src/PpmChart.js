@@ -7,28 +7,28 @@ const PpmChart = () => {
   const data = {
     datasets: [
       {
-        label: "Areas",
+        label: "問題児",
         data: [
           { x: 20, y: 80, label: "Area A" },
         ],
         backgroundColor: "rgba(75, 192, 192, 1)",
       },
       {
-        label: "a",
+        label: "花形",
         data: [
           { x: 80, y: 80, label: "a" },
         ],
         backgroundColor: "",
       },
       {
-        label: "b",
+        label: "負け犬",
         data: [
           { x: 20, y: 20, label: "b" },
         ],
         backgroundColor: "",
       },
       {
-        label: "c",
+        label: "金のなる木",
         data: [
           { x: 80, y: 20, label: "c" },
         ],
