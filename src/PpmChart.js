@@ -9,7 +9,7 @@ const PpmChart = () => {
       {
         label: "問題児",
         data: [
-          { x: 20, y: 80, label: "Area A" },
+          { x: 20, y: 80, label: "d" },
         ],
         backgroundColor: "rgba(75, 192, 192, 1)",
       },
