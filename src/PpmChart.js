@@ -21,6 +21,17 @@ const PpmChart = () => {
 
   const options = {
     plugins: {
+      title: {
+        display: true,
+        text: "ppm-analysis",
+        font: {
+          size: 20,
+        },
+        padding: {
+          top: 10,
+          bottom: 15,
+        },
+      },
       tooltip: {
         callbacks: {
           label: (context) => {
