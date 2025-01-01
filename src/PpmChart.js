@@ -30,6 +30,13 @@ const PpmChart = () => {
         },
       },
     },
+    scales: {
+      x: {},
+      y: {},
+    },
+    layout: {
+      padding: 20,
+    },
   };
 
   return <Scatter data={data} options={options} />;
