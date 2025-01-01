@@ -21,7 +21,7 @@ const PpmChart = () => {
 
   const options = {};
 
-  return <div>PpmChart</div>;
+  return <Scatter data={data} options={options} />;
 };
 
 export default PpmChart;
