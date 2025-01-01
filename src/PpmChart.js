@@ -29,7 +29,7 @@ const PpmChart = () => {
         },
         padding: {
           top: 10,
-          bottom: 15,
+          bottom: 10,
         },
       },
       tooltip: {
