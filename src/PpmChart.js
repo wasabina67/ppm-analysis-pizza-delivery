@@ -82,8 +82,9 @@ const PpmChart = () => {
         callbacks: {
           label: (context) => {
             const label = context.raw.label || "";
+            const amount = context.raw.amount || "";
             // return `${label}: (${context.raw.x}, ${context.raw.y})`;
-            return `${label}`;
+            return `${label}: ${amount}`;
           },
         },
       },
