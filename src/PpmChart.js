@@ -27,9 +27,18 @@ const PpmChart = () => {
       {
         label: "負け犬",
         data: [
+          { x: 25, y: 50, label: "Product A" },
+          { x: 30, y: 60, label: "Product B" },
+          { x: 20, y: 55, label: "Product C" },
+          { x: 75, y: 50, label: "Product D" },
+          { x: 80, y: 65, label: "Product E" },
+          { x: 70, y: 60, label: "Product F" },
           { x: 25, y: -50, label: "Product G" },
           { x: 20, y: -60, label: "Product H" },
           { x: 15, y: -55, label: "Product I" },
+          { x: 75, y: -50, label: "Product J" },
+          { x: 80, y: -60, label: "Product K" },
+          { x: 70, y: -55, label: "Product L" },
         ],
         backgroundColor: "rgba(201, 203, 207, 0.6)",
       },
