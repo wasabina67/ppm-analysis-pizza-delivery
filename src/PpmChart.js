@@ -7,7 +7,7 @@ const PpmChart = () => {
   const data = {
     datasets: [
       {
-        label: "負け犬",
+        label: "Area",
         data: [
           { x: 25, y: 50, label: "Area A" },
           { x: 30, y: 60, label: "Area B" },
