@@ -1,8 +1,8 @@
 {
-  "name": "ppm-analysis-example",
+  "name": "ppm-analysis-pizza-delivery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wasabina67.github.io/ppm-analysis-example/",
+  "homepage": "https://wasabina67.github.io/ppm-analysis-pizza-delivery/",
   "dependencies": {
     "chart.js": "^4.4.7",
     "cra-template": "1.2.0",
