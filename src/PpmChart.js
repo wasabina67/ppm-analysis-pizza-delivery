@@ -90,15 +90,15 @@ const PpmChart = () => {
     scales: {
       x: {
         beginAtZero: true,
-        max: 100,
+        max: 5,
         title: {
           display: true,
           text: "市場占有率",
         },
       },
       y: {
-        min: -100,
-        max: 100,
+        min: -60,
+        max: 60,
         title: {
           display: true,
           text: "市場成長率",
