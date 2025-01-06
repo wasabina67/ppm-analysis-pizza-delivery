@@ -95,7 +95,7 @@ const PpmChart = () => {
         max: 5,
         title: {
           display: true,
-          text: "市場占有率",
+          text: "Share",
         },
       },
       y: {
@@ -103,7 +103,7 @@ const PpmChart = () => {
         max: 60,
         title: {
           display: true,
-          text: "市場成長率",
+          text: "Growth",
         },
       },
     },
